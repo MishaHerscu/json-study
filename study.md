@@ -39,12 +39,12 @@ As it makes sense to you please write the following in JSON format:
 
 ```json
 {
-  name: Jason,
-  items:{
-    cat:Mr.Kitty,
-    roommates:[Dave,Miller],
-    teamLoves:[Red\ Sox, Patriots, Bruins],
-    addresses:['123 Fake street', '2 Muchinfo Road']
+  "name": "Jason",
+  "items":{
+    "cat":"Mr.Kitty",
+    "roommates":["Dave","Miller"],
+    "teamLoves":["Red Sox", "Patriots", "Bruins"],
+    "addresses":["123 Fake street", "2 Muchinfo Road"]
   }
 }
 
@@ -56,26 +56,26 @@ already wrote and include the information about Dave's fish.
 
 ```json
 {
-  name: 'Jason',
-  items:{
-    cat:'Mr.Kitty',
-    roommates:{
-      Dave:{
-        goldfish:{
-          Bob:{
-            color:'red'
+  "name": "Jason",
+  "items":{
+    "cat":"Mr.Kitty",
+    "roommates":{
+      "Dave":{
+        "goldfish":{
+          "Bob":{
+            "color":"red"
           },
-          Mr.MagicNibbles:{
-            color:'yellow',
-            habits:'bites a bit'
+          "Mr.MagicNibbles":{
+            "color":"yellow",
+            "habits":"bites a bit"
           }
         }
       },
-      Miller:{
+      "Miller":{
         }
       },
-    teamLoves:['Red\ Sox', 'Patriots', 'Bruins'],
-    addresses:['123 Fake street', '2 Muchinfo Road']
+    "teamLoves":["Red Sox", "Patriots", "Bruins"],
+    "addresses":["123 Fake street", "2 Muchinfo Road"]
   }
 }```
 
